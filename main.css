@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    touch-action: none;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins';
+    overflow: hidden;
+}
+
+#fps {
+    position: absolute;
+    z-index: 10;
+    left: 8px;
+    top: 8px;
+    padding: 4px 8px;
+    font: 14px Helvetica;
+    color: rgb(210, 210, 210);
+    background: rgba(0, 0, 0, .7);
+    border-radius: 3px;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
